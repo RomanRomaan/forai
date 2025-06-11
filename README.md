@@ -1,0 +1,2 @@
+# forai
+For AI
