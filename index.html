@@ -3,9 +3,99 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>forai</title>
+    <title>FarmCrow</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+        header {
+            background: #4CAF50;
+            color: #fff;
+            padding: 1rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        nav a {
+            color: #fff;
+            margin-left: 1rem;
+            text-decoration: none;
+        }
+        .hero {
+            background: #f5f5f5;
+            padding: 4rem 1rem;
+            text-align: center;
+        }
+        .hero h1 {
+            margin-top: 0;
+            font-size: 2.5rem;
+        }
+        .cta-button {
+            background: #4CAF50;
+            color: #fff;
+            border: none;
+            padding: 0.75rem 1.5rem;
+            font-size: 1rem;
+            cursor: pointer;
+            border-radius: 4px;
+            margin-top: 1rem;
+        }
+        .features {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 2rem 0;
+        }
+        .feature {
+            flex: 1 1 200px;
+            max-width: 300px;
+            padding: 1rem;
+            text-align: center;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+        }
+    </style>
 </head>
 <body>
-    <h1>Welcome to forai</h1>
+    <header>
+        <div class="logo">FarmCrow</div>
+        <nav>
+            <a href="#features">Features</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Invest in the Future of Farming</h1>
+        <p>Join our community and help sustainable farms grow.</p>
+        <button class="cta-button">Get Started</button>
+    </section>
+
+    <section id="features" class="features">
+        <div class="feature">
+            <h3>Crowdfunding</h3>
+            <p>Support farmers directly through our platform.</p>
+        </div>
+        <div class="feature">
+            <h3>Sustainability</h3>
+            <p>Promote eco-friendly and responsible farming practices.</p>
+        </div>
+        <div class="feature">
+            <h3>Community</h3>
+            <p>Connect with like-minded investors and farmers.</p>
+        </div>
+    </section>
+
+    <footer>
+        &copy; 2025 FarmCrow. All rights reserved.
+    </footer>
 </body>
 </html>
